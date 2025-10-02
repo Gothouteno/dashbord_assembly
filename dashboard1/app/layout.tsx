@@ -6,6 +6,7 @@ import { Analytics } from "@vercel/analytics/next"
 import { ThemeProvider } from "@/components/theme-provider"
 import { ThemeTransitionProvider } from "@/hooks/use-theme-transition.tsx"
 import { ThemeSettingsProvider } from "@/contexts/theme-settings-context"
+import { AuthProvider } from "@/contexts/auth-context"
 import { Suspense } from "react"
 import { ThemeTransition } from "@/components/theme-transition"
 import "./globals.css"
@@ -28,8 +29,10 @@ export default function RootLayout({
           <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
             <ThemeTransitionProvider>
               <ThemeSettingsProvider>
-                <ThemeTransition />
-                {children}
+                <AuthProvider>
+                  <ThemeTransition />
+                  {children}
+                </AuthProvider>
               </ThemeSettingsProvider>
             </ThemeTransitionProvider>
           </ThemeProvider>
