@@ -40,7 +40,7 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
 } from '@/components/ui/alert-dialog';
-import { MoreHorizontal, Pencil, Trash2, Shield, Eye } from 'lucide-react';
+import { MoveHorizontal as MoreHorizontal, Pencil, Trash2, Shield, Eye } from 'lucide-react';
 import {
   DropdownMenu,
   DropdownMenuContent,

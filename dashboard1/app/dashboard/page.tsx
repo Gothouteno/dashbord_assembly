@@ -6,7 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
-import { ChartBar as BarChart3, TrendingUp, TriangleAlert as AlertTriangle, CheckCircle, Monitor, Shield, Award, Mail, Palette, Zap, Info, Database, RefreshCw, MapPin, Layout, Briefcase, Phone, DollarSign, Activity, Search, FileText, Bell, User, Users, Download, Target, Settings, Calendar, ChevronLeft, ChevronRight, Clock } from "lucide-react"
+import { ChartBar as BarChart3, TrendingUp, TriangleAlert as AlertTriangle, CircleCheck as CheckCircle, Monitor, Shield, Award, Mail, Palette, Zap, Info, Database, RefreshCw, MapPin, LayoutGrid as Layout, Briefcase, Phone, DollarSign, Activity, Search, FileText, Bell, User, Users, Download, Target, Settings, Calendar, ChevronLeft, ChevronRight, Clock } from "lucide-react"
 import { ProjectCard } from "@/components/project-card"
 import { ActivityFeed } from "@/components/activity-feed"
 import { ProjectTable } from "@/components/project-table"
